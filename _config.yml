@@ -27,9 +27,15 @@ baseurl: "/myblog/" # the subpath of your site, e.g. /blog
 url: "https://joonkim0625.github.io" 
 twitter_username: 
 github_username:  joonkim0625
+linkedin_username: joonkim0625
+
+# Added by me
+author: Joon Kim
+# copyright: 
 
 # Build settings
-theme: minima
+# Removed minima theme as the theme is embedded.
+# theme: minima
 plugins:
   - jekyll-feed
 
