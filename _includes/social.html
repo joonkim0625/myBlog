@@ -1,5 +1,23 @@
 <ul class="social-media-list">
-  {%- if site.dribbble_username -%}
+  {%- if site.linkedin_username -%}
+  <li>
+    <a
+      href="https://www.linkedin.com/in/{{
+        site.linkedin_username | cgi_escape | escape
+      }}
+      "
+      target="_blank"
+      ><svg class="svg-icon">
+        <use
+          xlink:href="{{
+            '/assets/minima-social-icons.svg#linkedin' | relative_url
+          }}"
+        ></use>
+      </svg>
+      <span class="username">{{ site.linkedin_username | escape }}</span></a
+    >
+  </li>
+  {%- endif -%} {%- if site.dribbble_username -%}
   <li>
     <a
       href="https://dribbble.com/{{
@@ -76,24 +94,6 @@
         ></use>
       </svg>
       <span class="username">{{ site.instagram_username | escape }}</span></a
-    >
-  </li>
-  {%- endif -%} {%- if site.linkedin_username -%}
-  <li>
-    <a
-      href="https://www.linkedin.com/in/{{
-        site.linkedin_username | cgi_escape | escape
-      }}
-      "
-      target="_blank"
-      ><svg class="svg-icon">
-        <use
-          xlink:href="{{
-            '/assets/minima-social-icons.svg#linkedin' | relative_url
-          }}"
-        ></use>
-      </svg>
-      <span class="username">{{ site.linkedin_username | escape }}</span></a
     >
   </li>
   {%- endif -%} {%- if site.pinterest_username -%}
