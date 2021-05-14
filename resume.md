@@ -8,7 +8,7 @@ permalink: /resume/
 <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
 <script type="text/javascript">
   document.addEventListener("adobe_dc_view_sdk.ready", function(){
-    var adobeDCView = new AdobeDC.View({clientId: "98b61aa117a443578b4255281c02df6e", divId: "adobe-dc-view"});
+    var adobeDCView = new AdobeDC.View({clientId: "216f7ba058f54e24be6ca847e86ca4f4", divId: "adobe-dc-view"});
     adobeDCView.previewFile({
       content:{ location: 
         { url: "https://documentcloud.adobe.com/view-sdk-demo/PDFs/Bodea%20Brochure.pdf"}},
