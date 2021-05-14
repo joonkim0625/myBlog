@@ -11,11 +11,11 @@ permalink: /resume/
     var adobeDCView = new AdobeDC.View({clientId: "216f7ba058f54e24be6ca847e86ca4f4", divId: "adobe-dc-view"});
     adobeDCView.previewFile({
       content:{ location: 
-        { url: "https://documentcloud.adobe.com/view-sdk-demo/PDFs/Bodea%20Brochure.pdf"}},
-      metaData:{fileName: "Bodea Brochure.pdf"}
+        { url: "https://drive.google.com/file/d/1VUtTeouN3V3XsuAmU-1PAAyBDceTxuK9/preview"}},
+      metaData:{fileName: "HyunjoonKim-Resume.pdf"}
     },
     {
-      embedMode: "SIZED_CONTAINER"
+      embedMode: "IN_LINE"
     });
   });
 </script>
