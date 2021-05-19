@@ -1,8 +1,10 @@
 ---
-layout: page
+layout: default
 title: Resume
 permalink: /resume/
 ---
+
+# Resume
 
 <style>
 /* from : https://www.w3schools.com/howto/howto_css_responsive_iframes.asp */

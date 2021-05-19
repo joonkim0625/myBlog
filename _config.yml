@@ -39,6 +39,30 @@ author: Joon Kim
 plugins:
   - jekyll-feed
 
+# Default settings for pages
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - 
+    scope:
+      path: ""
+      type: "tils"
+    values:
+      layout: "post"
+
+
+# Collection settings
+
+collections:
+  tils:
+    output: true
+    permalink: /:collection/:title
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
